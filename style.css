@@ -58,3 +58,20 @@ select {
 }
 
 /* Fin du CSS Reset */
+
+
+
+h1 {font-size: 110px;
+
+margin-left: 550px;
+margin-right: 50px;}
+
+
+
+html{
+	--zer:red;
+}
+
+h1 {
+	color: var(--zer);
+}
