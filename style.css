@@ -31,7 +31,10 @@ body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
+  background-color: var(--clearcolor)
 }
+
+
 
 /* Make images easier to work with */
 img {
@@ -61,17 +64,61 @@ select {
 
 
 
+header {
+	background-color: var(--flashcolor);
+}
+
+main {
+	background-color: var(--secondarydark);
+}
+
+footer {
+	background-color: var(--flashcolor);
+}
+
+
 h1 {font-size: 110px;
 
-margin-left: 550px;
-margin-right: 50px;}
+display: grid; place-items: center;
+font-family: Lobster;
+color: var(--clearcolor);
+}
+
+h2 {
+	display: grid; place-items: center;
+	font-family: Roboto;
+	color: var(--clearcolor);
+	font-size: 12px;
+}
+
+nav ul {list-style-type: none;}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+.container a, h3 { display: none;}
+
+.skip-link {
+	display: grid; place-items: center;
+	font-family: Roboto;
+	display: none;
 
 
 
+}
 html{
-	--zer:red;
+	--clearcolor:#e0ece4;
+	--flashcolor:#ff4b5c;
+	--darkcolor:#056674;
+	--secondarydark:#66bfbf;
+
 }
 
-h1 {
-	color: var(--zer);
-}
+
+svg {height: 50px;}
