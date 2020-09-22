@@ -62,7 +62,10 @@ select {
 
 /* Fin du CSS Reset */
 
-
+p {
+	display: grid; place-items: center;
+	font-family: Roboto;
+}
 
 header {
 	background-color: var(--flashcolor);
